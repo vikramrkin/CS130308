@@ -1,4 +1,4 @@
-Console application developed in VS2017, targetting against .Net 4.6.1.
+Console application developed in VS2017, targetting .Net 4.6.1.
 
 Solution is divided into two projects - main and test project.
 
