@@ -13,7 +13,7 @@ namespace AlphaBank
 
         static void Main(string[] args)
         {
-            _card = new Card(123456789, "John Doe", DateTime.Today.AddYears(2), 1212);
+            _card = new Card("1234567812345678", "John Doe", DateTime.Today.AddYears(2), 1212);
             _accountService = new AccountService(new Account(_card.Number, 250.0));
 
             Console.Write($"Hi {_card.Name}, welcome to Alpha Bank.\nPlease enter your pin to continue: ");

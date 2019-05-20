@@ -8,7 +8,7 @@ namespace AlphaBankTest.Server.Service
     [TestClass]
     public class AccountServiceTest
     {
-        private const long TestCardNumber = 123456789999;
+        private const string TestCardNumber = "123456789999";
         private IAccountService _accountService;
 
         [TestInitialize]

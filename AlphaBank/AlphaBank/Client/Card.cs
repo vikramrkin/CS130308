@@ -4,7 +4,7 @@ namespace AlphaBank.Client
 {
     public class Card
     {
-        public Card(long number, string name, DateTime expiryDate, int pin)
+        public Card(string number, string name, DateTime expiryDate, int pin)
         {
             Number = number;
             Name = name;
@@ -12,9 +12,9 @@ namespace AlphaBank.Client
             Pin = pin;
         }
 
-        public long Number { get; private set; }
+        public string Number { get; private set; }
         public string Name { get; private set; }
-        public DateTime ExpiryDate { get; set; }
+        public DateTime ExpiryDate { get; private set; }
 
         private int _pin;
         public int Pin

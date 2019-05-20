@@ -13,7 +13,7 @@ namespace AlphaBankTest.Client
         public void ValidPinReturnsTrue()
         {
             //Arrange
-            _card = new Card(123123132132, "Jane Doe", DateTime.UtcNow.AddYears(2), 6789);
+            _card = new Card("123123132132", "Jane Doe", DateTime.UtcNow.AddYears(2), 6789);
 
             //Act
             var isValidPin = _card.IsValidPin(6789);
@@ -24,10 +24,10 @@ namespace AlphaBankTest.Client
 
 
         [TestMethod]
-        public void InValidPinReturnsFalse()
+        public void InvalidPinReturnsFalse()
         {
             //Arrange
-            _card = new Card(123123132132, "Jane Doe", DateTime.UtcNow.AddYears(2), 6789);
+            _card = new Card("123123132132", "Jane Doe", DateTime.UtcNow.AddYears(2), 6789);
 
             //Act
             var isValidPin = _card.IsValidPin(1234);
