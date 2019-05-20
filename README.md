@@ -12,4 +12,4 @@ High level design:
 
 
 How to run:
-Execute AlphaBank project. Initial PIN is set to 1212 (hard coded in Main()
+Execute AlphaBank project. Initial PIN is set to 1212 (hard coded in Main())
