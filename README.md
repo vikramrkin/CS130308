@@ -1,4 +1,4 @@
-Console application developed in VS2017, targetting against .Net 4.6.1.
+Console application developed in VS2017, targetting .Net 4.6.1.
 
 Solution is divided into two projects - main and test project.
 
@@ -12,4 +12,4 @@ High level design:
 
 
 How to run:
-Execute AlphaBank project. Initial PIN is set to 1212 (hard coded in Main()
+Execute AlphaBank project. Initial PIN is set to 1212 (hard coded in Main())
