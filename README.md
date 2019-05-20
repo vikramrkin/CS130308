@@ -10,3 +10,6 @@ High level design:
 
 3. Main program acts as the interface with users accepting inputs along with basic validations.
 
+
+How to run:
+Execute AlphaBank project. Initial PIN is set to 1212 (hard coded in Main()
