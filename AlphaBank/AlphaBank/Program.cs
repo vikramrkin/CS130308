@@ -81,13 +81,13 @@ namespace AlphaBank
                         if (topupAmount.HasValue)
                         {
                             _accountService.Topup(topupAmount.Value);
+                            Console.WriteLine($"Topup successful. New balance is {_accountService.GetCurrentBalance()}");
                         }
                         else
                         {
                             Console.WriteLine("Invalid amount entered.");
                         }
 
-                        Console.WriteLine($"Topup successful. New balance is {_accountService.GetCurrentBalance()}");
                         break;
                     case "3":
                         Console.Write("Enter the amount to withdraw: ");
